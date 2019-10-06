@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversion Calculator</string>
+    <string name="to_label">To</string>
+    <string name="from_label">From</string>
+    <string name="measure_label1">Meters</string>
+    <string name="measure_label2">Yards</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="clear_button">Clear</string>
+    <string name="mode_button">Mode</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_name">Settings</string>
+</resources>

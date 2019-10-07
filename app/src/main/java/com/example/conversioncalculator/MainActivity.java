@@ -3,18 +3,13 @@ package com.example.conversioncalculator;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;
+
 
 public class MainActivity extends AppCompatActivity {
     public static int mode = 0;
@@ -28,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EditText toField = (EditText) findViewById(R.id.toTextField);
         EditText fromField = (EditText) findViewById(R.id.fromTextField);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         TextView toLabel = (TextView) findViewById(R.id.toLabel);
         TextView fromLabel = (TextView) findViewById(R.id.fromLabel);

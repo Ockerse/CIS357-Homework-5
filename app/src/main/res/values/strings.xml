@@ -9,4 +9,14 @@
     <string name="mode_button">Mode</string>
     <string name="title_activity_settings">Settings</string>
     <string name="settings_name">Settings</string>
+    <string-array name="length_units">
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="volume_units">
+        <item>Liters</item>
+        <item>Gallons</item>
+        <item>Quarts</item>
+    </string-array>
 </resources>

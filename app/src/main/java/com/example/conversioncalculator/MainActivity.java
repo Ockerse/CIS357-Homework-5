@@ -33,12 +33,17 @@ public class MainActivity extends AppCompatActivity {
         TextView fromLabel = (TextView) findViewById(R.id.fromLabel);
         TextView titleLabel = (TextView) findViewById(R.id.titleLabel);
 
+        TextView fromValue = (TextView) findViewById(R.id.fromValue);
+        TextView toValue = (TextView) findViewById(R.id.toValue);
+
         Button clearButton = (Button) findViewById(R.id.clearButton);
         Button modeButton = (Button) findViewById(R.id.modeButton);
         Button calculateButton = (Button) findViewById(R.id.calculateButton);
 
         toLabel.setText("Meters");
         fromLabel.setText("Yards");
+        toValue.setText("Meters");
+        fromValue.setText("Yards");
 
 
 
@@ -54,15 +59,19 @@ public class MainActivity extends AppCompatActivity {
             fromField.setText("");
             if (mode == 0) {
                 titleLabel.setText("Volume Converter");
-                fromField.setHint("Enter Volume in Liters");
-                toField.setHint("Enter From Value");
+                fromField.setHint("Enter From Value");
+                toField.setHint("Enter To Value");
+                fromValue.setText("Liters");
+                toValue.setText("Gallons");
                 toLabel.setText("Gallons");
                 fromLabel.setText("Liters");
                 mode++;
             } else {
                 titleLabel.setText("Length Converter");
-                fromField.setHint("Enter Length in Yards");
+                fromField.setHint("Enter From Value");
                 toField.setHint("Enter To Value");
+                fromValue.setText("Yards");
+                toValue.setText("Meters");
                 toLabel.setText("Meters");
                 fromLabel.setText("Yards");
                 mode--;

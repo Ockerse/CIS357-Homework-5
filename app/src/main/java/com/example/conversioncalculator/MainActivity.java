@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         //toLabel.setText("Meters");
         //fromLabel.setText("Yards");
-        toValue.setText("Meters");
+        toValue.setText("Yards");
         fromValue.setText("Yards");
 
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 fromField.setHint("Enter From Value");
                 toField.setHint("Enter To Value");
                 fromValue.setText("Liters");
-                toValue.setText("Gallons");
+                toValue.setText("Liters");
                 //toLabel.setText("Gallons");
                 //fromLabel.setText("Liters");
                 mode++;
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 fromField.setHint("Enter From Value");
                 toField.setHint("Enter To Value");
                 fromValue.setText("Yards");
-                toValue.setText("Meters");
+                toValue.setText("Yards");
                 //toLabel.setText("Meters");
                 //fromLabel.setText("Yards");
                 mode--;
